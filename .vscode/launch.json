@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Chrome open file",
-            "url": "file:///home/kaiden/Documents/Test%20with%20vs/index.html",
+            "url": "file:///home/kaiden/Documents/RHS_Robotics_Website/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
