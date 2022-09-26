@@ -45,13 +45,23 @@ nav {
     top: 0px;
 
 }
+@media (450px >= width) {
+    #heading-awards{
+        width: auto;
+    }
+}
+@media (width > 450px){
+    #heading-awards{
+        width: 450px;
+    }
+}
 #heading-awards{
     border-bottom:gray ;
     border-bottom-width:0.5px ;
     border-bottom-style:solid;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    
     margin-bottom: 10px;
 }
 h2{
