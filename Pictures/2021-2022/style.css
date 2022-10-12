@@ -18,5 +18,7 @@ nav>a:hover{
     color: black;
 }
 img{
-    max-width: 100%;
+    align-items: baseline;
+    height:40vh;
+    width: 50vh;
 }
