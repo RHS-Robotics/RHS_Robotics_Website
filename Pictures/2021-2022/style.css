@@ -17,8 +17,31 @@ nav>a:hover{
     text-decoration: underline;
     color: black;
 }
-img{
-    align-items: baseline;
-    height:40vh;
-    width: 50vh;
+@media screen and (min-width:1080px){
+    img{
+        height: 50vh;
+        width:calc(33% - 5px)
+}
+}
+@media only screen and (min-width: 741px) and (max-width:1079px){
+    img{
+        align-items: baseline;
+        height:40vh;
+        width:calc(33% - 5px);
+}
+}
+@media screen and (min-width:444px) and (max-width:741px) {
+    img{
+        height:30vh;
+        width:37.5vh;
+    }
+}
+@media screen and (max-width:443px){
+    img{
+        height:20vh;
+        width:25vh;
+    }
+    .bottom_image{
+        padding-bottom: 30px;
+    }
 }
